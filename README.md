@@ -10,6 +10,8 @@ The implementation of the **trie** relies on the implementation of the **nodes**
 
 The **nodes** **aggregate** in their bodies **substrings** of the words in the trie and store **letters** of the words in the **edges** whenever **two words diverge**. This way, the **number of nodes** to **store** the trie as well as the **number of duplicated characters** stored is **reduced** in comparison to more straightforward trie implementations.
 
+For more technical details about the code, please refer to the **[javadoc pages](https://alfonsoalhambra.github.io/Trie)**.
+
 ##Lines of improvement##
 
 * The provided implementation is **not thread safe**. It would be a great idea to make in thread safe. A trivial solution would be to achieve **coarse grained** synchronization by locking the trie level calls to each of the four functions. A more challenging way would be to try **fine grained** synchronization or more advanced synchronization models, ideally **non-blocking synchronization**.
@@ -18,4 +20,4 @@ The **nodes** **aggregate** in their bodies **substrings** of the words in the t
 
 ##Contact##
 
-In case you have any question about the project feel free to **[mail me](mailto:alfonso.alhambra@gmail.com?Subject=Github%20Trie)**, Alfonso Alhambra Morón.
+In case you have any question about the project feel free to **[mail me](mailto:alfonso.alhambra@gmail.com?Subject=Github%20Trie)**, Alfonso Alhambra MorÃ³n.
