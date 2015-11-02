@@ -20,4 +20,4 @@ For more technical details about the code, please refer to the **[javadoc pages]
 
 ##Contact##
 
-In case you have any question about the project feel free to **[mail me](mailto:alfonso.alhambra@gmail.com?Subject=Github%20Trie)**, Alfonso Alhambra Morón.
+In case you have any question about the project feel free to **[mail me](mailto:alfonso.alhambra@gmail.com?Subject=GitHub%20Trie)**, Alfonso Alhambra Morón.
