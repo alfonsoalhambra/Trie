@@ -17,7 +17,3 @@ For more technical details about the code, please refer to the **[javadoc pages]
 * The provided implementation is **not thread safe**. It would be a great idea to make in thread safe. A trivial solution would be to achieve **coarse grained** synchronization by locking the trie level calls to each of the four functions. A more challenging way would be to try **fine grained** synchronization or more advanced synchronization models, ideally **non-blocking synchronization**.
 * The provided implementation **stores all the trie in RAM**. It is good for **medium sized datasets** but it would be interesting to consider a more **scalable** implementation partially or totally storing the trie in the **directory system**. Another interesting scalability line would be to make it **distributed** letting **multiple machines** maintain the trie in **RAM and/or disk**.
 * The provided implementation behaves as a **set of words**. It can be trivially converted into a **map** transforming the *endNode* flag into a **container of information whose key is the string leading to the final node of the word**. In case more than one element could share the same key, a **set or list structure** would be necessary to replace the *endNode* flag.
-
-##Contact##
-
-In case you have any question about the project feel free to **[mail me](mailto:alfonso.alhambra@gmail.com?Subject=GitHub%20Trie)**, Alfonso Alhambra Morón.
